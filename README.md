@@ -12,16 +12,14 @@ it is just an algorithm you can use to delete elements with specefy patterns lik
     "RED": "N\/A",
     "WER" : "-",
     "hobbies": ["", "coding", "-"],
-    "education": {"highschool": "N\/A", "college": ""}
-  }''';
+    "education": {"highschool": "N\/A", "college": ""}}''';
 
      String jso3 = '''{
     "name": {"first": "Javier", "middle": "Gutierrez", "last": "Gónzalez"},
     "age": 25,
     "DOB": "east",
     "hobbies": ["music", "coding", "internet"],
-    "education": {"highschool": "hampton", "college": "harvard"}
-  }''';
+    "education": {"highschool": "hampton", "college": "harvard"}}''';
 
 
   You can test it in dartpad https://dartpad.dev/
