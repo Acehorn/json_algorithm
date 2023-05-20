@@ -8,25 +8,8 @@ void main() {
     "education": {"highschool": "N\/A", "college": "Yale"}
   }''';
   
-    String jso2 = '''{
-    "name": {"first": "As", "middle": "N\/A", "last": "N\/A"},
-    "age": 25,
-    "DOB": "-",
-    "DAW": "",
-    "RED": "N\/A",
-    "WER" : "-",
-    "hobbies": ["", "coding", "-"],
-    "education": {"highschool": "N\/A", "college": ""}
-  }''';
 
-     String jso3 = '''{
-    "name": {"first": "Javier", "middle": "Gutierrez", "last": "Gónzalez"},
-    "age": 25,
-    "DOB": "east",
-    "hobbies": ["music", "coding", "internet"],
-    "education": {"highschool": "hampton", "college": "harvard"}
-  }''';
-  String newJson = deleteJsonElement(jso2);
+  String newJson = deleteJsonElement(jso);
   print(newJson);
 }
 
