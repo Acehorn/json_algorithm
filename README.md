@@ -1,7 +1,7 @@
 # json_algorithm
 
 
-it is just an algorithm you can use to delete elements with specefy patterns like
+it is just an algorithm you can use to delete elements with specify patterns like
 "", "-" or "N/A", it could have improvements, for now you can use this examples to test it
 
     String jso2 = '''{
